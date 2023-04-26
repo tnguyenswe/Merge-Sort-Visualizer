@@ -3,9 +3,9 @@
 Within a terminal, do the following commands:
 
 ``` 
-npm i react
-git clone https://github.com/tnguyenswe/Merge-Sort-Visualizer.git 
 sudo npm install -g npm
+sudo npm i react
+git clone https://github.com/tnguyenswe/Merge-Sort-Visualizer.git 
 cd merge-sort-visualizer
 npm run build
 npm run start

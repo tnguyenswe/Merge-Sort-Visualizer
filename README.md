@@ -20,3 +20,4 @@ Here, you can make changes, to the code and see your changes live.
 We're going to be using Visual Studio Code as our text editor. In general, most people tend to use Visual Studio Code for developing front end apps. So make sure to download it.
 
 Once you've downloaded it, navigate to the merge-sort-visualizer repo.
+# Contributers - Charles Manaois

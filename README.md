@@ -19,5 +19,10 @@ Here, you can make changes, to the code and see your changes live.
 
 We're going to be using Visual Studio Code as our text editor. In general, most people tend to use Visual Studio Code for developing front end apps. So make sure to download it.
 
+# React Tutorial
+
+For anyone new to React, please watch this React tutorial and go through
+making a React app by yourself. Here's a guide to use: https://youtu.be/SqcY0GlETPk
+
 Once you've downloaded it, navigate to the merge-sort-visualizer repo.
-# Contributers - Charles Manaois, Edison Nguyen, Kelly Dang
+# Contributers - Charles Manaois, Edison Nguyen, Kelly Dang, Thomas Nguyen

@@ -27,3 +27,6 @@ For anyone new to React, please watch this React tutorial and go through
 making a React app by yourself. Here's a guide to use: https://youtu.be/SqcY0GlETPk
 
 # Contributers - Charles Manaois, Edison Nguyen, Kelly Dang, Thomas Nguyen
+
+# Presentation Notes:
+

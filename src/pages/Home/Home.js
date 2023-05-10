@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
 import React, { useState, useEffect } from "react";
-import "./Home.css";
 import { getMergeSortAnimations } from '../Algorithms/algorithms.js';
 
 // Change this value for the speed of the animations.

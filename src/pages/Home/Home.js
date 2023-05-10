@@ -75,58 +75,67 @@ const Home = (props) => {
     }, []);
 
     return (
-        <div 
-        sx={{
-            display: 'flex',
-            flexDirection: 'column',
-        }}
+        <div
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+            }}
         >
             <h1 sx={{ fontSize: '24px', pl: '24px', pt: '10px' }} className="title-text">
                 Sorting Algorithm <span sx={{ color: 'navy10' }}>Visualizer</span>
             </h1>
 
-            <div sx={{display: 'flex', mt: '20px'}}>
-            <button
-                sx={{
-                    backgroundColor: 'navy10',
-                    border: 'none',
-                    borderRadius: '50px',
-                    padding: '10px',
-                    color: 'white',
-                    ml: '24px',
-                    width: '150px',
-                    alignSelf: 'center',
-                    mr: '10px'
-                }}
-                onClick={randomizeArray}>
-                Randomize Array
+            <div sx={{ display: 'flex', mt: '20px' }}>
+                <button
+                    sx={{
+                        backgroundColor: 'navy10',
+                        border: 'none',
+                        borderRadius: '50px',
+                        padding: '10px',
+                        color: 'white',
+                        ml: '24px',
+                        width: '150px',
+                        alignSelf: 'center',
+                        mr: '10px',
+                        ':hover': {
+                            cursor: 'pointer',
+                        }
+                    }}
+                    onClick={randomizeArray}>
+                    Randomize Array
             </button>
 
-            <button
-                sx={{
-                    backgroundColor: 'navy10',
-                    border: 'none',
-                    borderRadius: '50px',
-                    padding: '10px',
-                    color: 'white',
-                    alignSelf: 'flex-start',
-                    mr: '10px',
-                }}
-                className="buttons" onClick={printList}>
-                Console Log List
+                <button
+                    sx={{
+                        backgroundColor: 'navy10',
+                        border: 'none',
+                        borderRadius: '50px',
+                        padding: '10px',
+                        color: 'white',
+                        alignSelf: 'flex-start',
+                        mr: '10px',
+                        ':hover': {
+                            cursor: 'pointer',
+                        }
+                    }}
+                    className="buttons" onClick={printList}>
+                    Console Log List
             </button>
 
-            <button
-                sx={{
-                    backgroundColor: 'navy10',
-                    border: 'none',
-                    borderRadius: '50px',
-                    padding: '10px',
-                    color: 'white',
-                    alignSelf: 'flex-start',
-                }}
-                className="buttons" onClick={mergeSort}>
-                Merge Sort
+                <button
+                    sx={{
+                        backgroundColor: 'navy10',
+                        border: 'none',
+                        borderRadius: '50px',
+                        padding: '10px',
+                        color: 'white',
+                        alignSelf: 'flex-start',
+                        ':hover': {
+                            cursor: 'pointer',
+                        }
+                    }}
+                    className="buttons" onClick={mergeSort}>
+                    Merge Sort
             </button>
 
             </div>
@@ -143,7 +152,15 @@ const Home = (props) => {
                 }}
             >
                 {myList.map((val, index) => {
-                    return <div className="array-item-container" key={index} style={{ height: `${val}px`, backgroundColor: PRIMARY_COLOR }} ></div>
+                    return <div className="array-item-container" key={index}
+                        style={{
+                            height: `${val}px`,
+                            backgroundColor: PRIMARY_COLOR,
+                            width: '2px',
+                            display: 'flex',
+                            alignItems: 'end',
+                            margin: '0 1px',
+                        }} ></div>
                 })}
             </div>
         </div>

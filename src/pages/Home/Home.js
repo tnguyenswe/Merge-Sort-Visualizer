@@ -70,6 +70,14 @@ const Home = (props) => {
 
     // Generates new random array to be sorted upon page load.
     useEffect(() => {
+        const randomizeArray = () => {
+            const arraySize = 100;
+            const tempArray = [];
+            for (let i = 0; i < arraySize; i++) {
+                tempArray.push(randomIntFromInterval(10, 100));
+            }
+            setMyList(tempArray);
+        }
         randomizeArray();
     }, []);
 

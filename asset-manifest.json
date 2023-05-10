@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Merge-Sort-Visualizer/static/css/main.e6c13ad2.css",
+    "main.js": "/Merge-Sort-Visualizer/static/js/main.b1447416.js",
+    "static/js/787.7410315e.chunk.js": "/Merge-Sort-Visualizer/static/js/787.7410315e.chunk.js",
+    "index.html": "/Merge-Sort-Visualizer/index.html",
+    "main.e6c13ad2.css.map": "/Merge-Sort-Visualizer/static/css/main.e6c13ad2.css.map",
+    "main.b1447416.js.map": "/Merge-Sort-Visualizer/static/js/main.b1447416.js.map",
+    "787.7410315e.chunk.js.map": "/Merge-Sort-Visualizer/static/js/787.7410315e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b1447416.js"
+  ]
+}

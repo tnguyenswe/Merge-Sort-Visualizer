@@ -9,9 +9,8 @@ function App() {
     <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />}>
-              <Route path="about" element={<About />} />
-            </Route>
+            <Route path="/" element={<Home />}/>
+            <Route path="/Merge-Sort-Visualizer" element={<Home />}/>
           </Routes>
         </BrowserRouter>
     </ThemeProvider>
